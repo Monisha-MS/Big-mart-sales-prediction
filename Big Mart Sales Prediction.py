@@ -13,8 +13,8 @@ import numpy as np
 # In[2]:
 
 
-train=pd.read_csv(r"C:\Users\Monisha\Desktop\Big mart sales prediction\train.csv")
-test=pd.read_csv(r"C:\Users\Monisha\Desktop\Big mart sales prediction\test.csv")
+train=pd.read_csv("train_data_path.csv")
+test=pd.read_csv("test_data_path.csv")
 
 
 # In[3]:
@@ -331,7 +331,6 @@ print('Original Categories:')
 print(train['Item_Fat_Content'].value_counts())
 
 
-# In[ ]:
 
 
 
